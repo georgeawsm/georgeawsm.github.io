@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+
+.containercircle {
+    display: inline-block;
+    margin-top: 2em;
+    margin-bottom: -.5em;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+}
+
+    .userphoto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+
+    }
+    .userinfo h1 {
+        display: block;
+        margin-top: .5em;
+    }
+
+        .userinfo p {
+            display: block;
+            margin-top: -1em;
+            padding: 0em 2em .5em 2em;
+            font-size: 16px;
+            color: #808080;
+        } 
+
+.containersquare {
+    display: inline-block;
+    margin-top: 2em;
+    margin-bottom: -.5em;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: black;
+    z-index: 10;
+}
+
+    .containersquare img {
+        display: absolute;
+        margin: auto auto;
+        justify-self: center;
+    }
+
+        .mainblocks {
+            margin-top: 1em;
+            margin-bottom: -.5em;
+            width: 300px;
+        }
+
+   
+
+
+
+    
+.containerrect {
+    display: inline-block;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: -.5em;
+    height: 180px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: black;
+    z-index: 10;
+}
+
+    .containerrect img {
+        display: absolute;
+        top: 50%;
+        transform: translate(0%,-20%);
+    }
+
+    .subblocks {
+        display: inline-block;
+        width: 300px;
+        text-align: center;
+    }
+        
+
+
+
+.content p {
+    color: #808080;
+    font-size: 14px;
+}
+.content p span {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+.menubar {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 1em 0em 1em 0em;
+    text-decoration: none;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.fa {
+    padding: .6em;
+    font-size: 1em;
+    margin: .5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+    .fa-facebook {
+        background: #ffffff;
+        color: #000000;
+        width: 1em;
+    }
+    
+    .fa-instagram {
+        background: #ffffff;
+        color: #000000;
+        width: 1em;
+    }
+
+      .fa-skype {
+        background: #ffffff;
+        color: #000000;
+        width: 1em;
+    }
+
+    .fa-envelope {
+        background: #ffffff;
+        color: #000000;
+        width: 1em;
+    }
+
+    .fa-shopping-cart {
+        background: #ffba00;
+        color: white;
+        width: 1em;
+    }
+
+    .fa:hover{
+        background-color: #ffba00;
+        color: white;
+        scale: 1.05,1.05;
+    }
+
+
+
+
+
+.label-green {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(96, 219, 66) ;
+    border-radius: 10px 10px 0px 0px;
+    padding: .3em .5em 5em .5em;
+    width: 8em;
+    z-index: -5;
+    left: 52%;
+}
+
+.label-yellow {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(255, 207, 51) ;
+    border-radius: 10px 10px 0px 0px;
+    padding: .3em .5em 5em .5em;
+    width: 8em;
+    z-index: -5;
+    left: 52%;
+}
+
+.label-red {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(247, 66, 53) ;
+    border-radius: 10px 10px 0px 0px;
+    padding: .3em .5em 5em .5em;
+    width: 8em;
+    z-index: -5;
+    left: 52%;
+}
+
+.blackblock {
+    background-color: black;
+    content: '';
+    height: 5em;
+    color: #808080;
+    font-size: .6em;
+    padding-bottom: 5em;
+}
+
+
+
+/* @media (min-width: 730px) {
+
+    section {
+        margin: 0 1em;
+    }
+} 
+
+@media (min-width: 930px) {
+
+    section.content {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+            "gtcb redbubble meraki slipshod";
+    }
+
+    .boxgivethemacoffeebreak {
+        grid-area: gtcb;
+    }
+
+    .boxredbubbleshop {
+        grid-area: redbubble;
+    }
+
+    .boxmerakileatherartisanal {
+        grid-area: meraki;
+    }
+
+    .boxslipshodxx {
+        grid-area: slipshod;
+    }
+
+}*/
+
+
+
+.emphasisanimation {
+    animation:  shake 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px) rotate(0deg) scale(1,1); }
+    2% { transform: translate(1px, 1px) rotate(0deg) scale(.9, .9); }
+    4% { transform:  rotate(-1deg) scale(1.1, 1.1); }
+    6% { transform:  rotate(1deg) scale(1.1, 1.1); }
+    8% { transform:  rotate(-1deg) scale(1.1, 1.1); }
+    10% { transform:  rotate(1deg) scale(1.1, 1.1); }
+    12% { transform:  rotate(-1deg) scale(1.1, 1.1); }
+    14% { transform:  rotate(1deg) scale(1.1, 1.1); } 
+    16% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+/* .menubar {
+    display: block;
+    animation: fadeInFromNone 0.5s ease-out;
+    animation-delay: 3s;
+}
+
+@keyframes fadeInFromNone {
+    0% { 
+        display: none;
+        transform: translate(0px, 50px) 
+        opacity(0);
+    }
+
+    1% { 
+        display: block;
+        transform: translate(0px, 50px) 
+        opacity(0);
+    }
+
+    100% { 
+        display: block;
+        transform: translate(0px, 0px)
+        opacity(1);
+    }
+} */
