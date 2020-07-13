@@ -1,19 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;800&display=swap');
 
 
 
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+    margin: 4em 2em;
     background: #000;
     color: white;
     text-align: center;
 }
 
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #222222;
+    border-width: 0;   
+    margin-top: -5vw; 
+}
 
-.containercircle {
+.blackblock {
+    background-color: black;
+    content: '';
+    height: 40vh;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 8vw;
+    font-weight: 800;
+    text-align: right;
+    line-height: 7vw; 
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2vw; 
+    letter-spacing: 1px;
+    position: relative;
+    float: left;
+    color: white;
+}
+
+    p1 {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: right;
+        letter-spacing: 1.5px;
+    }
+    p2 {
+        font-size: 16px;
+        color: #757575;
+        font-weight: 300;
+        text-align: right;
+        letter-spacing: 1.5px;
+    }
+    p3 {
+        font-size: 12px;
+        color: #3b3b3b;
+        font-weight: 500;
+        text-align: right;
+        letter-spacing: 0.5px;
+        line-height: 0px;
+    }
+
+
+.clickabletext {
+    text-decoration: none;   
+    color: #1d1d1d;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+.clickabletext:hover {
+    color: white;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+
+
+/* .containercircle {
     display: inline-block;
     margin-top: 2em;
     margin-bottom: -.5em;
@@ -109,74 +187,130 @@ body {
     color: white;
     font-size: 16px;
 }
+ */
 
 
 
-
-.menubar {
+.menubarfooter {
     display: block;
     background-color: rgba(0, 0, 0, 0.0);
     padding: 1em 0em 1em 0em;
     text-decoration: none;
-    position: sticky;
+/*     position: sticky;
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -o-sticky;
-    position: -ms-sticky;
+    position: -ms-sticky; */
     bottom: 0px;
     width: 100%;
     z-index: 10;
 }
 
 
+
+.navbar {
+
+
+}
+
+
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+
+}
+    .navlinks span {
+        color: #ffffff ;
+        float: left;
+    }
+
+.navlinks li {
+    float: right;     
+}
+
+.navlinks a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3b3b3b;
+    letter-spacing: 1px;
+    padding: 0vw 2vw;
+}
+
+
+
+
 .fa {
     padding: .6em;
     font-size: 1em;
     margin: .5em;
-    text-align: center;
     text-decoration: none;
-    border-radius: 100%;
+    border-radius: 50%;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition:    color 1s ease-out;
+    -ms-transition:     color 1s ease-out;
+    -o-transition:      color 1s ease-out;
+    transition:         color 1s ease-out;
 }
 
     .fa-facebook {
-        background: #ffffff;
-        color: #000000;
+        background: none;
+        color: #ffffff;
+        width: 1em;
+    }
+
+    .fa-behance {
+        background: none;
+        color: #ffffff;
+        width: 1em;
+    }
+
+    .fa-vimeo {
+        background: none;
+        color: #ffffff;
         width: 1em;
     }
     
     .fa-instagram {
-        background: #ffffff;
-        color: #000000;
+        background: none;
+        color: #ffffff;
         width: 1em;
     }
 
       .fa-skype {
-        background: #ffffff;
-        color: #000000;
+        background: none;
+        color: #ffffff;
         width: 1em;
     }
 
     .fa-envelope {
-        background: #ffffff;
-        color: #000000;
+        background: none;
+        color: #ffffff;
         width: 1em;
     }
 
     .fa-shopping-cart {
-        background: #ffba00;
-        color: white;
+        background: none;
+        color: #ffffff;
         width: 1em;
     }
 
     .fa:hover{
-        background-color: #ffba00;
-        color: white;
+        background-color: #ffffff;
+        color: #000000;
         scale: 1.05,1.05;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition:    all 1s ease-out;
+        -ms-transition:     all 1s ease-out;
+        -o-transition:      all 1s ease-out;
+        transition:         all 1s ease-out;
     }
 
 
 
-
+/* 
 
 .label-green {
     position: absolute;
@@ -217,14 +351,12 @@ body {
     left: 52%;
 }
 
-.blackblock {
-    background-color: black;
-    content: '';
-    height: 5em;
-    color: #808080;
-    font-size: .6em;
-    padding-bottom: 5em;
-}
+
+ */
+
+
+
+
 
 
 
@@ -236,6 +368,10 @@ body {
 } 
 
 @media (min-width: 930px) {
+
+    .userinfo {
+        margin: 1vw;
+    }
 
     section.content {
         display: grid;
@@ -260,11 +396,87 @@ body {
         grid-area: slipshod;
     }
 
-}*/
+}
+ */
+
+@media (max-width: 600px){
+
+    body {
+        margin: 6vh 4vw;
+
+    }
+
+    h1 {    
+        font-size: 16vw;
+        line-height: 14vw;
+    }
+    
+    h2 {    
+        font-size: 16px;
+        line-height: 1vw;
+    }
 
 
 
-.emphasisanimation {
+    
+}
+
+
+@media (min-width: 600px){
+
+    body {
+        margin: 5vh 4vw;
+
+    }
+
+    h1 {    
+        font-size: 15vw;
+        line-height: 13vw;
+    }
+
+    h2 {    
+        font-size: 16px;
+        line-height: 1vw;
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width: 960px){
+
+    body {
+        margin: 5vh 4vw;
+
+    }
+
+    h1 { 
+        font-size: 15vw;
+        line-height: 13vw;
+    }
+    h2 { 
+        font-size: 16px;
+        line-height: 2vw;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* .emphasisanimation {
     animation:  shake 6s;
     animation-iteration-count: infinite;
     animation-delay: 3s;
@@ -283,7 +495,7 @@ body {
     16% { transform: rotate(0deg); }
     100% { transform: rotate(0deg); }
   }
-
+ */
 /* .menubar {
     display: block;
     animation: fadeInFromNone 0.5s ease-out;
