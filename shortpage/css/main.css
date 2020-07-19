@@ -111,6 +111,18 @@ body {
 }
 
 
+.roles {
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 15px;
+
+}
+
+
 
 
 .menubar {
@@ -221,7 +233,7 @@ body {
     background-color: black;
     content: '';
     height: 5em;
-    color: #808080;
+    color: #444444;
     font-size: .6em;
     padding-bottom: 5em;
 }
