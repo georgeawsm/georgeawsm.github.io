@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-.logotext {
+/* .logotext {
     display: block;
     float: left;
     text-decoration: none;
@@ -23,6 +23,20 @@ body {
     letter-spacing: 2px;
     padding: 1vw 1vw;
     line-height: 11px;
+
+} original */
+
+.logotext {
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    font-size: 4vh;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 0px;
+    padding: 1vw 1vw;
+    line-height: 20px;
 
 }
 
@@ -35,7 +49,7 @@ body {
     font-weight: 300;
     color: #ffffff;
     letter-spacing: 2px;
-    padding: 1vw 1vw;
+    padding: 1.1vw 1vw;
     line-height: 15px;
 
 }
@@ -52,7 +66,7 @@ hr {
 .blackblock {
     background-color: black;
     content: '';
-    height: 42vh;
+    height: 30vh;
 
 }
 
@@ -64,14 +78,23 @@ h1 {
     letter-spacing: 1px;
 }
 
+h1 span {
+    font-size: 8vw;
+    font-weight: 300;
+    text-align: right;
+    line-height: 7vw; 
+    letter-spacing: 1px;
+    float: left;
+    margin-left: .5em;
+    margin-top: .05em;
+}
+
 h2 {
     font-size: 1.8vw;
     font-weight: 500;
     text-align: left;
     line-height: 2vw; 
     letter-spacing: 1px;
-    position: relative;
-    float: left;
     color: white;
 }
 
@@ -79,8 +102,9 @@ h2 {
         font-size: 16px;
         color: #ffffff;
         font-weight: 300;
-        text-align: right;
+        text-align: left;
         letter-spacing: 1.5px;
+        float: left;
     }
     p2 {
         font-size: 16px;
@@ -97,7 +121,38 @@ h2 {
         letter-spacing: 0.5px;
         line-height: 0px;
     }
+    p4 {
+        font-size: 14px;
+        color: #666666;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.5px;
+        line-height: 0px;
+    }
 
+.about {
+    float: left;
+    width: 45%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #cecece;
+    padding: 2em 1em;
+}
+
+.about:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnleft {
+
+}
+
+.columnright {
+
+}
 
 .clickabletext {
     text-decoration: none;   
@@ -450,6 +505,28 @@ h2 {
         margin-bottom: -20px;
     }
 
+    /* .logotext {
+        font-size: 7vw;
+
+    } */
+
+    .about {
+        width: 93%;
+      }
+
+    .roles {
+        padding-top: .8em;
+        width: 80%;
+        float: left;
+    }
+
+    .blackblock {
+        height: 34vh;
+    }
+
+    h1 span {
+        color: #000000;
+    }
 
 
     
@@ -465,7 +542,7 @@ h2 {
 
     h1 {    
         font-size: 10vw;
-        line-height: 8vw;
+        line-height: 10vw;
     }
 
     h2 {    
@@ -490,7 +567,7 @@ h2 {
 
     h1 { 
         font-size: 15vw;
-        line-height: 13vw;
+        line-height: 15vw;
     }
     h2 { 
         font-size: 16px;
