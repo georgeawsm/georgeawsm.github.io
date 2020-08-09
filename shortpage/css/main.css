@@ -5,7 +5,7 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Heebo', sans-serif;
     margin: 0px;
     background: #000;
     color: white;
@@ -15,13 +15,23 @@ body {
 
 .containercircle {
     display: inline-block;
-    margin-top: 2em;
-    margin-bottom: -.5em;
+    margin-top: 5em;
+    margin-bottom: -3em;
     height: 150px;
     width: 150px;
     overflow: hidden;
     border-radius: 50%;
     background-color: black;
+    align-items: center;
+    
+
+}
+
+.containercircle img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    height: 90px;
+
 }
 
     .userphoto {
@@ -34,6 +44,8 @@ body {
     .userinfo h1 {
         display: block;
         margin-top: .5em;
+        margin-bottom: .3em;
+        letter-spacing: -1px;
     }
 
         .userinfo p {
@@ -46,7 +58,7 @@ body {
 
 .containersquare {
     display: inline-block;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: -.5em;
     width: 300px;
     height: 300px;
@@ -114,10 +126,10 @@ body {
 .roles {
     display: block;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 300;
-    color: #ffffff;
-    letter-spacing: 2px;
+    color: #757575;
+    letter-spacing: 0px;
     line-height: 15px;
 
 }
